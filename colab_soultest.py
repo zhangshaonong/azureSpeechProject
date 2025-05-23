@@ -4,7 +4,7 @@ from IPython.display import Audio
 
 output_file = "/content/output.wav"
 audio_config = speechsdk.audio.AudioOutputConfig(filename=output_file)
-speech_key = "66UdaYewAeWJyhJZqrfhyZtIFXmRkLa7zMmqF8YlLVBQHur04nB1JQQJ99BEAC3pKaRXJ3w3AAAYACOGdJ"
+speech_key = "yyy"
 service_region = "eastasia"  # 例: "japaneast"
 
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
